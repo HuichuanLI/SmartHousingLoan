@@ -33,22 +33,32 @@
 # Example
 
         输入
-        贷款30年
-        loan_years = 30
-        贷款40万人民币
-        loan = 40
-        付完首付后，手上还有10万元现金
-        cash = 10
-        每年的理财收益利率是5%
-        financial_yearly_return_rate = 0.05
-        每年的房贷利率是4.067%
-        lending_yearly_rate = 0.04067
-        每个月扣除生活开销，不扣除房贷的收入是0.5万元
-        monthly_income = 0.5
+        房产价格
+        property_price = 600
+        房产每年的升值
+        property_yearly_return_rate = 0.03
+        每年贷款利率
+        mortgage_yearly_rate = 0.0495
+        贷款年限
+        mortgage_years = 30
+        首付价格
+        down_payment = 300
+        现金资产
+        current_wealth = 300
+        每个月工资
+        monthly_income = 3
+        家庭花费
+        family_expense = 0.5
+        购票等其他的收入
+        financial_yearly_return_rate = 0.03
 
         输出
-        Monthly repayment:	0.1925 * 10000 RMB
-        30 years later, your cash:	300.58 * 10000 RMB
+       Monthly Mortgage repayment:	 1.6013 * 10000 RMB
+       30 years later, your cash wealth:	 572.84 * 10000 RMB
+       30 years later, your property wealth:	 1456.36 * 10000 RMB
 
-        每月应还贷款 0.1925万元
-        30年后，你的现金财富将是300.58万元
+
+        每月应还贷款  1.6013 万元
+        30年后，你的现金财富将是572.84万元
+        30年后，你的总财富将是1456.36 * 10000万元
+
